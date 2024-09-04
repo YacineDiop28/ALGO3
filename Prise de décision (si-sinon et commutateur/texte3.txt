@@ -1,0 +1,21 @@
+Algorithme conseiller_vetements_et_meteo
+    Début
+        Afficher "Quelle est la température actuelle ?"
+        Lire temperature
+
+        Afficher "Est-ce qu'il pleut ? (Oui/Non)"
+        Lire pluie
+
+        Si temperature < 10 Alors
+            Afficher "Il fait froid. Vous devriez porter un manteau chaud, un bonnet et des gants."
+        Sinon Si temperature >= 10 et temperature < 20 Alors
+            Afficher "Il fait frais. Vous devriez porter un pull ou une veste légère."
+        Sinon
+            Afficher "Il fait chaud. Vous devriez porter des vêtements légers."
+
+        Si pluie = "Oui" Alors
+            Afficher "Il pleut. N'oubliez pas votre parapluie et un imperméable."
+        Sinon
+            Afficher "Il ne pleut pas. Vous n'avez pas besoin de parapluie."
+
+    Fin

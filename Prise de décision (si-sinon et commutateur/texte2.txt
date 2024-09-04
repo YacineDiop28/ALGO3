@@ -1,0 +1,16 @@
+Début
+    Écrire "Entrez votre âge : "
+    Lire âge
+
+    Si âge <= 12 Alors
+        prix = 10
+    Sinon Si âge >= 13 ET âge <= 17 Alors
+        prix = 15
+    Sinon Si âge >= 18 Alors
+        prix = 20
+    Sinon
+        Écrire "Âge invalide."
+    Fin
+
+    Écrire "Le prix du billet est ", prix, " $."
+Fin

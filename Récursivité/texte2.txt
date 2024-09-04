@@ -1,0 +1,9 @@
+fonction puissance(base, exposant)
+    si exposant est égal à 0
+        retourner 1
+    sinon si exposant est égal à 1
+        retourner base
+    sinon
+        retourner base * puissance(base, exposant - 1)
+    fin si
+fin fonction
